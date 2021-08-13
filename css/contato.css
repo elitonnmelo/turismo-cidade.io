@@ -1,0 +1,33 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px #999;
+    
+}
+input, textarea{
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 1em;
+    font: 1em sans-serif;
+    border: 1px solid #999;
+
+}
+label{
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(20, 23, 218);
+    color: rgb(20, 23, 218);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+.row{
+    padding: 0 20px;
+    display: table;
+    width: 100%;
+
+}

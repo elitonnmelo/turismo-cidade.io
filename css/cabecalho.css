@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    background: rgb(3, 3, 109);
+    position: fixed;
+    top: 0;
+    height: 14vh;
+    width: 100%;
+}
+main {
+    background: url("bg.jpg") no-repeat 
+    center center; 
+    background-size: cover;
+
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    
+
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+
+}
